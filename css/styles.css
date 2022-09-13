@@ -1,0 +1,299 @@
+@font-face {
+  font-family: cocogoose;
+  src: url('../fonts/cocogoose-pro-light-trial.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+/** HEADER AND NAVBAR */
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.first-nav {
+  background: #444;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  display: none;
+}
+
+.second-nav-ul-links > li > a {
+  color: #555;
+  text-decoration: none;
+  transition: color 300ms;
+}
+
+.mobile-menu-icons > li > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.mobile-menu > li > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.first-nav > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.brands-nav {
+  display: flex;
+}
+
+.brands-nav > li {
+  margin: 0 0.3rem;
+}
+
+.fa-facebook {
+  border-radius: 50%;
+  padding: 0.1rem;
+  transition: color 0.5s, background 0.5s;
+}
+
+.fa-facebook:hover {
+  color: #4267b2;
+  background: #fff;
+}
+
+.fa-twitter {
+  border-radius: 50%;
+  padding: 0.1rem;
+  transition: color 0.5s, background 0.5s;
+}
+
+.fa-twitter:hover {
+  color: #1ad1d2;
+  background: #fff;
+}
+
+.fa-youtube {
+  border-radius: 50%;
+  padding: 0.1rem;
+  transition: color 0.5s, background 0.5s;
+}
+
+.fa-youtube:hover {
+  color: #f00;
+  background: #fff;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links > li {
+  margin: 0 0.3rem;
+}
+
+.second-nav {
+  justify-content: space-around;
+  display: none;
+}
+
+.second-nav-ul-icon > li > a > img {
+  height: 5rem;
+}
+
+.second-nav-ul-links {
+  display: flex;
+  align-items: center;
+}
+
+.second-nav-ul-links > li {
+  margin: 0 1rem;
+  transition: transform 300ms;
+}
+
+.mobile-menu-icons > li {
+  margin: 0.5rem;
+}
+
+.mobile-menu > li {
+  margin: 1rem;
+}
+
+.second-nav-ul-links > li:hover {
+  transform: translateY(-4px);
+}
+
+.second-nav-ul-links > li > a:hover {
+  color: #f00;
+}
+
+.fa-bars {
+  color: #000;
+}
+
+.open-menu-btn {
+  position: fixed;
+  top: 0.3rem;
+  left: 1rem;
+}
+
+.mobile-menu-nav {
+  display: none;
+}
+
+.mobile-menu-icons {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #979797eb;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+/** HEADLINE */
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 3rem 1rem;
+  height: 154vh;
+  justify-content: flex-start;
+  background-image: url('../images/mobile_intro_bg.png');
+  background-position: center;
+  background-size: contain;
+}
+
+.headline > h1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.title1 {
+  font-family: 'cocogoose', sans-serif;
+  color: #ff4800;
+  margin: 1rem 0;
+  font-size: 20px;
+}
+
+.title2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 52px;
+  margin: 1rem 0;
+  background-image: url('../images/firered.jpg');
+  background-size: 200%;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.event-description {
+  border: 1px solid #aeaeae;
+  margin: 1rem auto;
+  padding: 1rem;
+  background: #f0f0f0b6;
+  box-shadow: 1px 1px 14px 2px #999;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+}
+
+.description-question {
+  font-size: 19px;
+  color: #ff4800;
+  border-bottom: 1px solid #ff4800;
+  transition: background 0.5s, color 0.5s;
+}
+
+.description-question:hover {
+  background: #ff4800;
+  color: #fff;
+}
+
+.subtitle > h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: #525252;
+  font-size: 2.2em;
+  margin: 1rem 0;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #555;
+}
+
+@media screen and (min-width: 375px) {
+  /** HEADLINE */
+
+  .headline {
+    justify-content: space-around;
+    height: 130vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /** HEADER */
+
+  .mobile-menu-nav {
+    display: none;
+  }
+
+  .open-menu-btn {
+    display: none;
+  }
+
+  .first-nav {
+    display: flex;
+  }
+
+  .second-nav {
+    display: flex;
+    background: #fff;
+  }
+
+  /** HEADLINE */
+
+  .headline {
+    justify-content: space-around;
+    height: 100vh;
+  }
+
+  .title1 {
+    font-size: 1.2em;
+  }
+
+  .title2 {
+    font-size: 2.9em;
+  }
+
+  .event-description {
+    font-size: 1.3em;
+  }
+
+  .copyright {
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+}
