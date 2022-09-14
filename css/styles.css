@@ -368,7 +368,6 @@ ul {
   display: flex;
   margin: 1rem;
   padding: 1rem;
-  justify-content: space-between;
   transition: transform 300ms, outline 300ms;
 }
 
@@ -411,11 +410,12 @@ ul {
 .featured-btn-container {
   display: flex;
   justify-content: center;
+  width: 50%;
 }
 
 .more-btn {
   margin: 1rem auto;
-  width: 80%;
+  width: 100%;
   padding: 1rem;
   background: #fff;
   border: 1px solid #ff3300;
@@ -426,6 +426,7 @@ ul {
 .more-btn:hover {
   background: #ff3300;
   color: #fff;
+  cursor: pointer;
 }
 
 .fa-chevron-down {
@@ -514,6 +515,12 @@ ul {
     width: 50%;
     justify-self: center;
   }
+
+  /** FEATURED SECTION  */
+  .featured-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  } 
 }
 
 @media screen and (min-width: 1024px) {
