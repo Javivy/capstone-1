@@ -220,7 +220,26 @@ footer > img {
   background-size: contain;
 }
 
+.about-headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 3rem 1rem;
+  justify-content: flex-start;
+  background-image: url('../images/mobile_intro_bg.png');
+  background-position: center;
+  background-size: contain;
+}
+
 .headline > h1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.about-headline > h1 {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -531,12 +550,18 @@ footer {
     margin: 7rem 0 0 0;
   }
 
+  .about-headline {
+    justify-content: space-around;
+    margin: 7rem 0 0 0;
+  }
+
   .title1 {
     font-size: 1.2em;
   }
 
   .title2 {
     font-size: 2.9em;
+    color: #ff4800;
   }
 
   .event-description {
