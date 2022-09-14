@@ -23,6 +23,11 @@ ul {
   list-style-type: none;
 }
 
+.card-description > a {
+  text-decoration: none;
+  color: #ff753e;
+}
+
 .first-nav {
   background: #444;
   justify-content: flex-end;
@@ -34,6 +39,10 @@ ul {
   color: #555;
   text-decoration: none;
   transition: color 300ms;
+}
+
+.mobile-menu-nav {
+  display: none;
 }
 
 .mobile-menu-icons > li > a {
@@ -105,6 +114,31 @@ ul {
 .second-nav {
   justify-content: space-around;
   display: none;
+}
+
+footer > img {
+  height: 7rem;
+  margin: 0 auto;
+}
+
+.main-work-card > img {
+  height: 64px;
+  width: 64px;
+}
+
+.featured-card > img {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+
+.partners-container > img {
+  width: 14rem;
+  margin: 1rem 0.5rem;
+  border: 1px solid #999;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: background 1s;
 }
 
 .second-nav-ul-icon > li > a > img {
@@ -180,7 +214,6 @@ ul {
   align-items: flex-start;
   width: 100%;
   padding: 3rem 1rem;
-  height: 170vh;
   justify-content: flex-start;
   background-image: url('../images/mobile_intro_bg.png');
   background-position: center;
@@ -264,7 +297,7 @@ ul {
 
 .main-work-line {
   height: 1px;
-  width: 35%;
+  width: 20%;
   background: #ff4800;
   margin: 1rem auto;
 }
@@ -302,11 +335,6 @@ ul {
   outline: 1px solid #ff4800;
 }
 
-.main-work-card > img {
-  height: 64px;
-  width: 64px;
-}
-
 .card-title {
   color: #ff4800;
   font-weight: 600;
@@ -315,11 +343,6 @@ ul {
 
 .card-description {
   text-align: center;
-}
-
-.card-description > a {
-  text-decoration: none;
-  color: #ff753e;
 }
 
 .button-container {
@@ -339,7 +362,7 @@ ul {
 }
 
 .main-work-button:hover {
-  background-color: #ff3300;
+  background-color: #f30;
   cursor: pointer;
 }
 
@@ -373,13 +396,7 @@ ul {
 
 .featured-card:hover {
   transform: scale(1.03);
-  outline: 1px solid #ff3300;
-}
-
-.featured-card > img {
-  height: 100px;
-  width: 100px;
-  align-self: center;
+  outline: 1px solid #f30;
 }
 
 .featured-content {
@@ -395,14 +412,14 @@ ul {
 }
 
 .person-ocupation {
-  color: #ff3300;
+  color: #f30;
   font-weight: 600;
   font-style: italic;
 }
 
 .featured-divisor {
   height: 1px;
-  background: #ff3300;
+  background: #f30;
   width: 15%;
   margin: 1rem 0;
 }
@@ -418,13 +435,13 @@ ul {
   width: 100%;
   padding: 1rem;
   background: #fff;
-  border: 1px solid #ff3300;
+  border: 1px solid #f30;
   font-weight: 600;
   transition: background 300ms, color 300ms;
 }
 
 .more-btn:hover {
-  background: #ff3300;
+  background: #f30;
   color: #fff;
   cursor: pointer;
 }
@@ -434,20 +451,56 @@ ul {
   margin: 0 0.5rem;
 }
 
+/** PARTNERS SECTION  */
+.partners-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #444;
+}
+
+.partners-title {
+  color: #aaa;
+  font-weight: 900;
+  font-size: 2.5em;
+  margin: 1rem 0 0 0;
+}
+
+.partners-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partners-container > img:hover {
+  background: #eee;
+}
+
+/** FOOTER */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container > p {
+  margin: 1rem 0;
+  width: 70%;
+}
+
 @media screen and (min-width: 375px) {
   /** HEADLINE */
 
   .headline {
     justify-content: space-around;
-    height: 150vh;
-  }
-}
-
-@media screen and (min-width: 425px) {
-  /** HEADLINE */
-
-  .headline {
-    height: 140vh;
   }
 }
 
@@ -475,7 +528,6 @@ ul {
 
   .headline {
     justify-content: space-around;
-    height: 110vh;
     margin: 7rem 0 0 0;
   }
 
@@ -520,7 +572,30 @@ ul {
   .featured-container {
     display: grid;
     grid-template-columns: 50% 50%;
-  } 
+  }
+
+  /** PARTNERS SECTION  */
+  .partners-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .partners-container > img {
+    width: 12rem;
+  }
+
+  .partners-container > img:nth-child(1) {
+    height: 7rem;
+    width: 8rem;
+  }
+
+  /** FOOTER */
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 }
 
 @media screen and (min-width: 1024px) {
