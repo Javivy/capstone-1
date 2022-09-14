@@ -50,6 +50,10 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
+## Video describing my project
+
+- Loom Video: [here](https://www.loom.com/share/a734588ad52d4767b7782afbe6b63eb4)
+
 ## 📝 License
 
 This project is [MIT](MIT.md) licensed.
