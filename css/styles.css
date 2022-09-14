@@ -440,8 +440,11 @@ footer > img {
 }
 
 .featured-title {
-  margin: 1rem 0;
-  font-family: 'Lato', sans-serif;
+  color: #555;
+  font-size: 2.3em;
+  font-family: 'cocogoose', sans-serif;
+  text-align: center;
+  padding: 1rem;
 }
 
 .featured-card {
@@ -591,6 +594,7 @@ footer > img {
   font-weight: 900;
   font-size: 2.5em;
   margin: 1rem 0 0 0;
+  font-family: 'cocogoose', sans-serif;
 }
 
 .partners-container {
