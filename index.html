@@ -72,15 +72,15 @@
         </li>
       </ul>
     </nav>
-    <a class="open-menu-btn" href="#">
+    <div class="open-menu-btn">
       <i class="fa-solid fa-bars fa-2x"></i>          
-    </a>
-    <nav class="mobile-menu-nav">
+    </div>
+    <nav class="mobile-menu-nav" style="display: none;">
       <ul class="mobile-menu-icons">
         <li>
-          <a class="close-menu-btn" href="#">
+          <div class="close-menu-btn">
             <i class="fa-regular fa-circle-xmark fa-2x"></i>
-          </a>
+          </div>
         </li>
       </ul>
       <ul class="mobile-nav">
@@ -118,7 +118,9 @@
     <div class="event-description">
       <p>
         <span class="description-question">Are you a game developer?</span>
-        Then come and participate in the WORLD CUP - Game Dev competition, Keep reading about it 
+        Then come and participate in the WORLD CUP - Game Dev competition, where
+        you will be able to show off your abilities to code and then, might get 
+        the opportunity to work for a big company such as Epic Games
       </p>
     </div>
     <div class="subtitle">
@@ -133,38 +135,73 @@
 
   <!--* MAIN WORK -->
   <section class="main-work">
-    <div class="h3">Main Work</div>
+    <h3 class="main-work-title">Main Work</h3>
     <div class="main-work-line"></div>
-    <div class="container">
+    <div class="main-work-container">
       <div class="main-work-card">
-        <img src="" alt="">
-        <h4 class="card-title"></h4>
-        <p class="card-description"></p>
+        <img src="icons/icon_presenter.png" alt="Presenter Icon">
+        <h4 class="card-title">Conference</h4>
+        <p class="card-description">Get to know all the details about how to participate in our conference the 5.12.2022</p>
       </div>
       <div class="main-work-card">
-        <img src="" alt="">
-        <h4 class="card-title"></h4>
-        <p class="card-description"></p>
+        <img src="icons/icon_program.png" alt="Program Icon">
+        <h4 class="card-title">GV Exhibition</h4>
+        <p class="card-description">Come to our exhibition and see other people's projects, get inspiration from them. That could be you!</p>
       </div>
       <div class="main-work-card">
-        <img src="" alt="">
-        <h4 class="card-title"></h4>
-        <p class="card-description"></p>
+        <img src="icons/icon_messages.png" alt="Forum">
+        <h4 class="card-title">Forum</h4>
+        <p class="card-description">Talk with folks in our <a href="#">Forum</a>, where you wil be able to be part of this community.</p>
       </div>
       <div class="main-work-card">
-        <img src="" alt="">
-        <h4 class="card-title"></h4>
-        <p class="card-description"></p>
+        <img src="icons/icon_board.png" alt="Board Icon">
+        <h4 class="card-title">Workshop</h4>
+        <p class="card-description">Make a personal project and submit it <a href="#">via this link</a>, so we can review your work and know if you're at the level to participate.</p>
       </div>
-      <div class="main-work-card">
-        <img src="" alt="">
-        <h4 class="card-title"></h4>
-        <p class="card-description"></p>
+      <div class="main-work-card last-card">
+        <img src="icons/icon_wheel.png" alt="Wheel Icon">
+        <h4 class="card-title">GV Ignite</h4>
+        <p class="card-description">Get unique opportunities by joining to our program and learn about a world of possibilities</p>
       </div>
     </div>
-    <button class="cards-btn">
-      Subscribe to the tournament
-    </button>
+    <div class="button-container">
+      <button type="button" class="main-work-button">
+        Subscribe to the competition
+      </button>
+    </div>
+  </section>
+
+  <!--* FEATURED SECTION  -->
+  <section class="featured-section">
+    <h3 class="featured-title">
+      Featured Speakers
+    </h3>
+    <div class="main-work-line"></div>
+    <div class="container">
+      <div class="featured-card">
+        <img src="speakers/speaker_01.png" alt="Speaker 1">
+        <div class="featured-content">
+          <p class="person-name">Pedro Suarez</p>
+          <p class="person-ocupation">Google Developer</p>
+          <div class="featured-divisor"></div>
+          <p class="person-feedback">I was in the last year conference and I can tell it was awesome, they gave me the opportunity I have now to work for Google</p>
+        </div>
+      </div>
+      <div class="featured-card">
+        <img src="speakers/speaker_02.png" alt="Speaker 2">
+        <div class="featured-content">
+          <p class="person-name">Juan Ramirez</p>
+          <p class="person-ocupation">Xbox Developer</p>
+          <div class="featured-divisor"></div>
+          <p class="person-feedback">I was present in the previous conference, they were very cheerful and without them I couldn't have make it to work in Xbox/Microsoft</p>
+        </div>
+      </div>
+      <div class="featured-btn-container">
+        <button class="more-btn">
+          MORE <i class="fa-solid fa-chevron-down fa-lg"></i>
+        </button>
+      </div>
+    </div>
   </section>
 
   <script src="js/main.js"></script>
