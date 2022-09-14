@@ -52,7 +52,7 @@ Give a ⭐️ if you like this project!
 
 ## Video describing my project
 
-- Loom Video: [here](https://www.loom.com/share/a734588ad52d4767b7782afbe6b63eb4)
+- Loom Video: [here](https://www.loom.com/share/e4834fa524f84e32ae87d501ff4c3a53)
 
 ## 📝 License
 
