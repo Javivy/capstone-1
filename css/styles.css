@@ -748,6 +748,10 @@ footer {
     width: 7rem;
   }
 
+  .partner-about {
+    display: none;
+  }
+
   /** FOOTER */
   footer {
     display: flex;
@@ -759,6 +763,11 @@ footer {
   .footer-about {
     display: grid;
     grid-template-columns: 50% 50%;
+    background: #444;
+  }
+
+  .footer-about > p {
+    color: #aaa;
   }
 }
 
