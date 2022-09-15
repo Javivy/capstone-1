@@ -139,13 +139,17 @@ footer > img {
   align-self: center;
 }
 
-.partners-container > img {
-  width: 14rem;
-  margin: 1rem 0.5rem;
-  border: 1px solid #999;
+.partner-img-container {
+  width: 10rem;
+  margin: 1rem 0.5rem 3rem 0.5rem;
   padding: 1rem;
   border-radius: 15px;
-  transition: background 1s;
+  height: fit-content;
+}
+
+.partner-img-container > img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .past-container > img {
@@ -601,6 +605,7 @@ footer > img {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
 }
 
