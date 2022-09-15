@@ -46,7 +46,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Original design by Cindy Shin
+- Original design by [Cindy Shin](https://www.behance.net/adagio07)
 
 ## Video describing my project
 
