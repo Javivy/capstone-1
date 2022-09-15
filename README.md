@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](http://first-capstone-javivy.io/)
+[Live Demo Link](https://javivy.github.io/capstone-1/index.html)
 
 
 ## Getting Started
