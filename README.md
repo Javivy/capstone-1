@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
     - cd portfolio-microverse
 
 
-## Authors
+## Author
 
 👤 **Javivy**
 
@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Javivy/portfolio-microverse/issues).
+Feel free to check the [issues page](https://github.com/Javivy/capstone-1/issues).
 
 ## Show your support
 
@@ -46,9 +46,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design by Cindy Shin
 
 ## Video describing my project
 
