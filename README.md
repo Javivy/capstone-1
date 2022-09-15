@@ -11,7 +11,7 @@
 - JavaScript
 - Linters
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](http://first-capstone-javivy.io/)
 
